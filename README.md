@@ -1,31 +1,31 @@
-# Protein BioGenAI
+# AI-Based Test Automation System
 
-## AI-Based Protein Selection System
+## Overview
+The AI-Based Test Automation System is an intelligent platform designed to automate software testing using Artificial Intelligence. It converts user-provided requirements into structured test cases, executes them on real web applications, and generates detailed execution reports.
 
-### Overview
-This project focuses on generating protein-like sequences and selecting the best candidates using a mathematical scoring approach.
+## Objectives
+- To automate the process of test case generation using AI
+- To reduce manual effort and time in software testing
+- To improve accuracy and efficiency in test execution
 
-### Problem
-AI-generated proteins often have low success rates, leading to high experimental cost and time.
+## Key Features
+- AI-based test case generation from requirement input
+- Automated web testing using Playwright
+- Command Line Interface (CLI) for user interaction
+- Report generation in JSON and PDF formats
+- Screenshot capture during execution
+- FastAPI-based backend for API access
 
-### Solution
-This system:
-- Generates protein sequences
-- Applies mathematical scoring
-- Ranks and selects best candidates
-
-### Applications
-- Drug discovery
-- Disease detection (cancer, bacteria)
-- Protein engineering
-
-### Tech Stack
+## Technologies Used
 - Python
-- NumPy
-- Matplotlib
+- Playwright (Browser Automation)
+- FastAPI (Backend Framework)
+- Groq / Perplexity APIs (AI Models)
+- ReportLab (PDF Generation)
 
-### Status
-Work in progress
-
-### Author
-Youval Kumar
+## System Workflow
+1. User provides input (text or file)
+2. AI generates structured test scenarios
+3. User reviews and approves test cases
+4. System executes test actions
+5. Reports are generated (JSON, PDF, Screenshot)
